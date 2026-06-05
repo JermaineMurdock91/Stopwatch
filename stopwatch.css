@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+#heading{
+
+    font-size:3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(35, 31, 31) ;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 7px solid;
+    border-radius: 50px ;
+    padding: 30px;
+    background-color: white;
+}
+
+#display{
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px ;
+}
+
+#controls button{
+font-size: xx-large;
+padding: 10px 20px;
+margin: 7px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+
+#startbtn{
+    background-color: rgb(114, 190, 37);
+}
+#startbtn:hover{
+    background-color: rgb(95, 146, 44);
+}
+
+#stopbtn{
+    background-color: rgb(225, 7, 7);
+}
+#stopbtn:hover{
+    background-color: rgb(189, 64, 39);
+}
+
+#resetbtn{
+    background-color: rgb(14, 49, 190);
+}
+#resetbtn:hover{
+    background-color: rgb(18, 100, 158);
+}
